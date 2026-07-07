@@ -1,0 +1,358 @@
+
+
+
+
+@media (max-width: 1200px) {
+  .sidebar {
+    width: 220px;
+  }
+
+  .main {
+    padding: 25px;
+  }
+
+  .hero h1 {
+    font-size: 48px;
+  }
+
+  .card-container {
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  }
+}
+
+
+
+
+
+@media (max-width: 992px) {
+  .sidebar {
+    width: 90px;
+    padding: 25px 10px;
+  }
+
+  .logo h2 {
+    display: none;
+  }
+
+  .sidebar nav a span {
+    display: none;
+  }
+
+  .sidebar nav a {
+    justify-content: center;
+    padding: 16px;
+  }
+
+  .sidebar nav a i {
+    font-size: 22px;
+    margin: 0;
+  }
+
+  .search-box {
+    width: 320px;
+  }
+
+  .hero {
+    padding: 40px;
+    min-height: 260px;
+  }
+
+  .hero h1 {
+    font-size: 42px;
+  }
+
+  .hero p {
+    font-size: 15px;
+  }
+
+  .song-info {
+    width: 30%;
+  }
+
+  .controls {
+    width: 45%;
+  }
+
+  .extra-controls {
+    width: 25%;
+  }
+}
+
+
+
+
+
+@media (max-width: 768px) {
+  body {
+    overflow: auto;
+  }
+
+  .container {
+    flex-direction: column;
+    height: auto;
+  }
+
+  .sidebar {
+    width: 100%;
+    height: 70px;
+
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 0 20px;
+
+    position: fixed;
+    top: 0;
+    left: 0;
+
+    z-index: 999;
+  }
+
+  .logo h2 {
+    display: block;
+    font-size: 22px;
+  }
+
+  .sidebar nav {
+    flex-direction: row;
+    gap: 8px;
+  }
+
+  .sidebar nav a {
+    padding: 10px;
+
+    font-size: 0;
+  }
+
+  .sidebar nav a i {
+    margin: 0;
+
+    font-size: 20px;
+  }
+
+  .main {
+    margin-top: 80px;
+
+    padding: 20px 20px 160px;
+  }
+
+  header {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .search-box {
+    width: 100%;
+  }
+
+  .header-right {
+    justify-content: flex-end;
+  }
+
+  .hero {
+    padding: 30px;
+    min-height: 220px;
+  }
+
+  .hero h1 {
+    font-size: 34px;
+  }
+
+  .hero p {
+    font-size: 14px;
+  }
+
+  .card-container {
+    grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+  }
+
+  .artist-container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .recent-container {
+    grid-template-columns: 1fr;
+  }
+
+  .player {
+    flex-direction: column;
+
+    height: auto;
+
+    gap: 15px;
+
+    padding: 15px;
+  }
+
+  .song-info,
+  .controls,
+  .extra-controls {
+    width: 100%;
+  }
+
+  .extra-controls {
+    justify-content: center;
+  }
+}
+
+
+
+
+
+@media (max-width: 576px) {
+  .hero {
+    text-align: center;
+    justify-content: center;
+  }
+
+  .hero h1 {
+    font-size: 28px;
+  }
+
+  .hero p {
+    font-size: 13px;
+  }
+
+  .hero-btn {
+    width: 100%;
+  }
+
+  .section-title h2 {
+    font-size: 22px;
+  }
+
+  .section-title a {
+    font-size: 14px;
+  }
+
+  .card-container {
+    grid-template-columns: 1fr;
+  }
+
+  .artist-container {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .artist-card img {
+    width: 100px;
+    height: 100px;
+  }
+
+  .recent-card {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .recent-play {
+    margin-top: 10px;
+  }
+
+  .song-info {
+    justify-content: center;
+  }
+
+  .controls > div:first-child {
+    gap: 12px;
+  }
+
+  #volumeBar {
+    width: 90px;
+  }
+}
+
+
+
+
+
+@media (max-width: 400px) {
+  .logo h2 {
+    display: none;
+  }
+
+  .sidebar {
+    padding: 0 10px;
+  }
+
+  .sidebar nav {
+    gap: 2px;
+  }
+
+  .sidebar nav a {
+    padding: 8px;
+  }
+
+  .hero {
+    padding: 20px;
+  }
+
+  .hero h1 {
+    font-size: 24px;
+  }
+
+  .hero p {
+    display: none;
+  }
+
+  .hero-btn {
+    padding: 12px 20px;
+
+    font-size: 14px;
+  }
+
+  .player {
+    padding: 10px;
+  }
+
+  .song-info img {
+    width: 50px;
+    height: 50px;
+  }
+
+  .song-info h4 {
+    font-size: 14px;
+  }
+
+  .song-info p {
+    font-size: 12px;
+  }
+
+  #playBtn {
+    width: 46px;
+    height: 46px;
+  }
+
+  .controls button {
+    width: 36px;
+    height: 36px;
+
+    font-size: 16px;
+  }
+
+  .progress-area {
+    gap: 6px;
+  }
+
+  .progress-area span {
+    width: 30px;
+    font-size: 10px;
+  }
+
+  #volumeBar {
+    width: 70px;
+  }
+}
+
+
+
+
+
+@media (max-height: 500px) {
+  .hero {
+    min-height: 180px;
+  }
+
+  .player {
+    position: relative;
+  }
+}
